@@ -1,0 +1,30 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+
+/* Estilo para la tabla */
+.table {
+    width: auto;
+}
+
+.table td:first-child {
+    text-align: left;
+    width: 450px;
+}
+
+/* Estilo para botones */
+.btn {
+    font-size: smaller;
+}
+
+.btn-container {
+    display: flex;
+}
+
+.btn-container .btn {
+    flex-grow: 1;
+}

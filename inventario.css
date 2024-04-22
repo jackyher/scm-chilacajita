@@ -1,0 +1,48 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+
+.main-container {
+    margin-bottom: 0; /* Puedes ajustar este valor según tus necesidades */
+}
+
+/* Estilo para la tabla */
+.table {
+    width: auto;
+}
+
+.table td:first-child {
+    text-align: center;
+    width: auto;
+}
+
+.table-container {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.table td {
+    font-size: smaller;
+}
+
+/* Estilo para botones */
+.btn {
+    font-size: smaller;
+}
+
+.btn-container {
+    display: flex;
+}
+
+.btn-container .btn {
+    flex-grow: 1;
+}
+
+.form {
+    padding-left: 30px;
+    padding-right: 30px;
+}
